@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.head{
+.head {
     max-width: 480px;
     border: 2px solid grey;
     margin: auto;
@@ -18,30 +18,30 @@
     color: rgb(29, 29, 29);
 }
 
-.score{
+.score {
     margin-top: 10px;
 }
 
-.container{
+.container {
     max-width: 960px;
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     gap: 1rem;
     margin: auto;
     padding: 20px;
 }
 
-.cell div{
+.cell div {
     height: 130px;
     border-radius: 4px;
 }
 
-.cell{
+.cell {
     position: relative;
     cursor: pointer;
 }
 
-.front{
+.front {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -53,11 +53,23 @@
     transform: rotateY(90deg);
 }
 
-.back{
+.back {
     background-color: rgb(53, 53, 53);
 }
 
-img{
+img {
     height: 100px;
     width: 100px;
+}
+
+.flip {
+    transform: rotateY(0deg);
+}
+
+.match {
+    transform: rotateY(0deg);
+}
+
+.show {
+    transform: rotateY(0deg);
 }
