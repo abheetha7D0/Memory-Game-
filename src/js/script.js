@@ -22,7 +22,7 @@ function clicking() {
 
         setInterval(() => {
             front[i].classList.remove('show')
-        }, 2000);
+        }, 3000);
 
         card[i].addEventListener('click', () => {
             front[i].classList.add('flip')
