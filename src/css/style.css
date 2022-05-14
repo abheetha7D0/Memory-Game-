@@ -50,7 +50,7 @@
     align-items: center;
     border: 2px solid rgb(62, 63, 63);
     background-color: rgb(46, 75, 95);
-   /* transform: rotateY(90deg);*/
+    transform: rotateY(90deg);
 }
 
 .back{
